@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c1626"/>
+      <stop offset="1" stop-color="#04070d"/>
+    </linearGradient>
+    <linearGradient id="pitch" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#14502f" stop-opacity="0"/>
+      <stop offset=".35" stop-color="#17592f"/>
+      <stop offset="1" stop-color="#14502f"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#cfe8d0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffb347" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ffb347" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip"><rect width="1280" height="400" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1280" height="400" fill="url(#bg)"/>
+    <!-- saha -->
+    <g transform="translate(560 40)">
+      <rect width="760" height="320" rx="18" fill="url(#pitch)"/>
+      <g fill="#ffffff" opacity=".035">
+        <rect x="120" width="60" height="320"/><rect x="240" width="60" height="320"/><rect x="360" width="60" height="320"/><rect x="480" width="60" height="320"/><rect x="600" width="60" height="320"/>
+      </g>
+      <g fill="none" stroke="#ffffff" stroke-opacity=".5" stroke-width="2.5">
+        <line x1="300" y1="20" x2="300" y2="300"/>
+        <circle cx="300" cy="160" r="58"/>
+        <rect x="560" y="70" width="120" height="180"/>
+        <rect x="640" y="115" width="40" height="90"/>
+      </g>
+      <rect x="680" y="125" width="26" height="70" fill="#ffffff" fill-opacity=".12" stroke="#ffffff" stroke-opacity=".6" stroke-width="2"/>
+    </g>
+    <!-- top izi -->
+    <path d="M820 268 Q 1010 230 1205 190" fill="none" stroke="#ffb347" stroke-width="6" stroke-linecap="round" opacity=".35"/>
+    <path d="M900 254 Q 1040 226 1205 190" fill="none" stroke="#ffd98a" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+    <circle cx="1210" cy="189" r="60" fill="url(#glow)"/>
+    <!-- top -->
+    <g transform="translate(1210 189)">
+      <circle r="15" fill="#f6f6f2" stroke="#202733" stroke-width="2"/>
+      <path d="M0 -6l5.7 4.1-2.2 6.7h-7l-2.2-6.7z" fill="#202733"/>
+    </g>
+    <!-- oyuncular -->
+    <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-style="italic" text-anchor="middle">
+      <g transform="translate(790 276)">
+        <circle r="30" fill="#ff4d6d" fill-opacity=".18"/>
+        <circle r="23" fill="#e3262f" stroke="#ff8a8f" stroke-width="3"/>
+        <text y="8" font-size="21" fill="#ffffff">10</text>
+      </g>
+      <g transform="translate(990 150)">
+        <circle r="23" fill="#1f3c96" stroke="#8fb0ff" stroke-width="3"/>
+        <text y="8" font-size="21" fill="#ffffff">4</text>
+      </g>
+      <g transform="translate(1150 245)">
+        <circle r="19" fill="#ffe66d" stroke="#b8a12a" stroke-width="3"/>
+        <text y="7" font-size="18" fill="#202733">1</text>
+      </g>
+    </g>
+    <!-- başlık -->
+    <g font-family="Arial Black, Arial, Helvetica, sans-serif" font-style="italic">
+      <text x="72" y="196" font-size="104" font-weight="900" fill="url(#title)" letter-spacing="-2">HyperFut</text>
+      <text x="76" y="246" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#ffd23f" font-style="normal">Yetenekli karakterlerle Haxball tarzı futbol</text>
+      <text x="76" y="296" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#9aa7b8" font-style="normal" letter-spacing="3">BY LEGENDKAYMAK</text>
+    </g>
+    <rect x="76" y="320" width="64" height="5" rx="2.5" fill="#ffd23f"/>
+  </g>
+</svg>
