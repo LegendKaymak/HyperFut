@@ -4,7 +4,7 @@
 
 <br>
 
-[![Oyna](https://img.shields.io/badge/%E2%96%B6%20%C5%9Eimdi%20oyna-hyperfut-ffd23f?style=for-the-badge&labelColor=0c1626)](https://hyperfut-legend-kaymak.vercel.app)
+[![Oyna](https://img.shields.io/badge/%E2%96%B6%20%C5%9Eimdi%20oyna-HyperFut.vercel.app-ffd23f?style=for-the-badge&labelColor=0c1626)](https://hyperfut.vercel.app)
 
 ![Karakter](https://img.shields.io/badge/karakter-25-e3262f?style=flat-square&labelColor=0c1626)
 ![Mod](https://img.shields.io/badge/mod-5-33d6ff?style=flat-square&labelColor=0c1626)
